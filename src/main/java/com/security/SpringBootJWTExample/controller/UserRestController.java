@@ -17,6 +17,12 @@ import com.security.SpringBootJWTExample.entity.UserResponse;
 import com.security.SpringBootJWTExample.service.IUserService;
 import com.security.SpringBootJWTExample.util.JWTUtil;
 
+/*
+-- This Class
+-   It’s used as a web request handler
+-   Allows to handle all REST APIs such as GET, POST, Delete, PUT requests.
+ */
+
 @Controller
 @RequestMapping("/user")
 public class UserRestController {

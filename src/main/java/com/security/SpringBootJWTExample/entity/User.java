@@ -12,6 +12,11 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.Table;
 
+/*
+-- This Class
+-   Representing data that can be persisted to the database table.
+ */
+
 @Entity
 @Table(name="users")
 public class User {
@@ -24,7 +29,7 @@ public class User {
     @Column(name="user_name")
     private String username;
 
-    @Column(name="user_passwd")
+    @Column(name="user_password")
     private String password;
 
     @Column(name="user_email")

@@ -16,6 +16,12 @@ import org.springframework.stereotype.Service;
 import com.security.SpringBootJWTExample.entity.User;
 import com.security.SpringBootJWTExample.repo.UserRepository;
 
+/*
+-- This Class
+-   implements UserDetailsService interface
+-   business logic resides within the @service layer
+ */
+
 @Service
 public class UserServiceImpl implements IUserService, UserDetailsService {
 

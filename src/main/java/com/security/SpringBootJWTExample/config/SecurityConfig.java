@@ -15,6 +15,11 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 import com.security.SpringBootJWTExample.filter.SecurityFilter;
 
+/*
+-- This Class
+-   contains all security related logic
+ */
+
 @EnableWebSecurity
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
