@@ -1,10 +1,17 @@
 package com.security.SpringBootJWTExample.entity;
 
-import lombok.Data;
-
-@Data
 public class UserRequest {
 
     private String username;
     private String password;
+
+    // Getters
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
 }
